@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/comm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<style type="text/css">
+			.breadcrumb-item + .breadcrumb-item::before{
+				content: '|';
+			}
+			#a1{
+				
+				border: 2px solid #007bff !important;
+				border-left:0 !important;
+			}
+			#a2{
+				vertical-align: middle;
+			}
+			.border-right-0.border-primary:focus{
+				outline: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row align-items-baseline py-3">
+				<div class="col-12 col-lg-3">
+					<img src="img/logo.png" class="">
+				</div>
+				<div class="col-12 col-lg-5">
+					
+					<div class="row no-gutters align-items-baseline ">
+						<div class="col-6">
+							<input id="a2" type="text" class="w-100 border-right-0 py-1 border-primary">
+						</div>
+						<div class="col-6">
+							<a id="a1" href="#" class=" text-muted btn py-1 border border-primary rounded-0">
+								查看分类<img src="img/header_normal.png" >
+							</a><a href="#" ><img src="img/search.png" height="36px"></a>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-12 col-lg-4">
+					<ul class="breadcrumb bg-transparent">
+						<li class="breadcrumb-item"><a class="breadcrumb-link" href="#"><img src="img/care.png" ></a></li>
+						<li class="breadcrumb-item"><a class="breadcrumb-link" href="#"><img src="img/order.png" ></a></li>
+						<li class="breadcrumb-item"><a class="breadcrumb-link" href="#"><img src="img/shop_car.png" ></a></li>
+						<li class="breadcrumb-item"><a class="breadcrumb-link text-muted" href="#">注册</a></li>
+						<li class="breadcrumb-item"><a class="breadcrumb-link text-muted" href="#">登录</a></li>
+					</ul>
+				</div>
+				<div class="col-12">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+.bg_gray{
+	background-image:linear-gradient(top,#f0f0f0,#e8e8e8) ;
+}
+.w-10{
+	width: 10%;
+}
+.list_btn1{
+	width: 1.5rem;
+	line-height: 1.5rem;
+	outline: 0;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+	background-color: #aaa;
+	padding-bottom: 0.25rem;
+}
+.active .page-link{background-color: #0AA1ED !important;}
+.page-item a:hover{border: 1px solid #0AA1ED;}
+
+.list_btn2{
+	width: 1rem;
+	line-height: 1rem;
+	outline: 0;
+	border: 0;
+	color: #fff;
+	font-weight: bolder;
+	background-color: #aaa;
+	padding-right:0.25rem;
+}
+.list-group>li{
+	border: 0;
+}
+.list-group>li+li{
+	border-top: 1px dotted #000;
+}
+.list-group-item:hover{
+	z-index: 0;
+}
+.w-40{width: 40%;}

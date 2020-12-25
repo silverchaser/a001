@@ -1,0 +1,22 @@
+@charset "UTF-8";
+div {
+  content: "克隆"; }
+
+#d1 {
+  width: 70px;
+  color: #333;
+  font-size: 18px;
+  border: 1px solid #f00;
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(bottom, #333, #f00);
+  background: -o-linear-gradient(bottom, #333, #f00);
+  background: -ms-linear-gradient(bottom, #333, #f00);
+  background: -moz-linear-gradient(bottom, #333, #f00); }
+
+#d2, #d3 {
+  width: 100px;
+  height: 100px; }
+
+#d3 {
+  border: 1px solid #f0f; }

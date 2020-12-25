@@ -1,0 +1,25 @@
+.breadcrumb-item+.breadcrumb-item::before{
+	content: '>';
+}
+.w-15{width: 15%;}
+img.w-15:hover{
+	border: 1px solid #666;
+	margin: 1px 0 0 1px;
+}
+.my_shadow{
+	box-shadow: 0 -1px 8px 3px #ccc;
+}
+
+.btn-outline-secondary{
+	border-radius: 0;
+	margin: 2px;
+}
+.btn-outline-secondary:hover{
+	background-color: transparent;
+	color: #0AA1ED;
+	border-color: #0AA1ED;
+}
+.btn-outline-secondary.active{
+	border-color:#0AA1ED !important;
+	color: #666;
+}
